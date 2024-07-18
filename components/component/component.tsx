@@ -27,6 +27,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "@/components/ui/select"
+import { SVGProps } from 'react';
 
 export function Component() {
   return (
@@ -302,7 +303,7 @@ export function Component() {
   )
 }
 
-function MenuIcon(props) {
+function MenuIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -324,7 +325,7 @@ function MenuIcon(props) {
 }
 
 
-function MountainIcon(props) {
+function MountainIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -344,7 +345,7 @@ function MountainIcon(props) {
 }
 
 
-function XIcon(props) {
+function XIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
