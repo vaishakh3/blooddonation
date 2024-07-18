@@ -329,7 +329,7 @@ function MountainIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
-      xmlns="https://www.svgrepo.com/show/3102/blood-drop.svg"
+      xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
       viewBox="0 0 24 24"
@@ -339,7 +339,7 @@ function MountainIcon(props: SVGProps<SVGSVGElement>) {
       strokeLinecap="round"
       strokeLinejoin="round"
     >
-      <path d="m8 3 4 8 5-5 5 15H2L8 3z" />
+      <path d="M12 2C11.11 2 4 10 4 15.5C4 19.09 6.91 22 10.5 22C13.54 22 16 19.54 16 16.5C16 10 12.89 2 12 2ZM12 20C10.07 20 8.5 18.43 8.5 16.5C8.5 15.28 9.23 14.2 10.34 13.73L11.71 15.5C12.11 15.96 12.78 16.11 13.34 15.79C14.14 15.31 14.71 14.44 14.87 13.5H16.87C16.53 15.53 15.03 17.1 13 17.68V19.68C14.03 19.38 15 18.61 15.5 17.5H13.5C12.92 18.16 12.01 18.46 11.19 18.13L10.53 17.28L8.6 19.19C9.42 19.69 10.46 20 12 20Z" />
     </svg>
   )
 }
