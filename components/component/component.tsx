@@ -35,7 +35,7 @@ export function Component() {
       <header className="bg-muted px-4 md:px-6 py-3 flex items-center justify-between">
         <Link href="#" className="flex items-center gap-2" prefetch={false}>
           <MountainIcon className="w-6 h-6" />
-          <span className="text-lg font-semibold">Blood Donation</span>
+          <span className="text-lg font-semibold">ആശ്രയ</span>
         </Link>
         <nav className="hidden md:flex items-center gap-6">
           <Link href="#" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
