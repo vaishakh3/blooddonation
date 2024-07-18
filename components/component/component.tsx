@@ -329,7 +329,7 @@ function MountainIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
-      xmlns="http://www.w3.org/2000/svg"
+      xmlns="https://www.svgrepo.com/show/3102/blood-drop.svg"
       width="24"
       height="24"
       viewBox="0 0 24 24"
