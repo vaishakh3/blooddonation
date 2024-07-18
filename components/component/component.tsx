@@ -60,7 +60,7 @@ export function Component() {
       </header>
       <section className="w-full py-12 md:py-24 lg:py-32 bg-[url('/hero-bg.jpg')] bg-cover bg-center">
         <div className="container px-4 md:px-6 text-center space-y-6">
-          <h1 className="text-4xl font-bold text-red-500 sm:text-5xl md:text-6xl">Save a Life, Donate Blood</h1>
+          <h1 className="text-4xl font-bold text-red-500 sm:text-5xl md:text-6xl">രക്തദാനം മഹാദാനം</h1>
           <p className="text-xl text-muted-foreground md:text-2xl">
             Your donation can make a difference. Join us in our mission to ensure a safe and reliable blood supply.
           </p>
